@@ -65,6 +65,9 @@ document.onkeypress = function(e) {
     case 48:
       add('0');
       break;
+    case 46:
+      add('.');
+      break;
     case 43:
       add('+');
       break;
